@@ -1,3 +1,5 @@
 name: JD Broussard - Developer
 markdown: kramdown
 theme: jekyll-theme-hacker
+paginate_path: /blog/page:num/
+paginate: 7
