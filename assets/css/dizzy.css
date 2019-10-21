@@ -1,0 +1,37 @@
+#skyline {
+    background-image: url("../images/skyline.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46vw;
+}
+
+@media (max-width: 767px) {
+    #skyline {
+        height: 100vw !important;
+    }
+    #skills img {
+        width:25% !important;
+    }
+    
+}
+
+.skyline-text {
+    text-shadow: black 0 -2px;
+}
+
+#skills {
+    min-height: 400px;
+}
+
+#skills img {
+    width:75%;
+}
+
+#work {
+    min-height: 500px;
+}
+
+#fun {
+    min-height: 500px;
+}
