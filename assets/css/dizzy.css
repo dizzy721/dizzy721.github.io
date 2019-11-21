@@ -13,25 +13,46 @@
     #skills img {
         width:25% !important;
     }
-    
+    #companies div {
+        width: 100% !important;
+    }   
+}
+
+@media (min-width: 768px) {
+    #companies {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-columns: 1fr;
+        grid-column-gap: 30px;
+    }
 }
 
 .skyline-text {
     text-shadow: black 0 -2px;
 }
 
-#skills {
-    min-height: 400px;
-}
 
 #skills img {
     width:75%;
 }
 
-#work {
-    min-height: 500px;
+#skills div:hover {
+    transform: scale(1.1);
 }
 
-#fun {
-    min-height: 500px;
+#companies img {
+    max-height: 44px;
+    margin-bottom: 2rem;
+}
+
+#companies div:hover {
+    transform: scale(1.1);
+}
+
+#fun img {
+    width: 75%;
+}
+
+#fun div:hover {
+    transform: scale(1.1);
 }
